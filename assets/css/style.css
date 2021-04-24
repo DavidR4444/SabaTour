@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+    background-color:#fcfcfc;
+    margin: 0;
+    padding: 0;
+}
+.tope{
+
+  padding: 50px;
+  padding-left: 50px;
+}
+.menu{
+  background-color: rgb(36, 185, 61);
+}
+.listaMenu {
+  display: flex ;
+  justify-content: center;
+  }
+.imgOne{
+    height:83vh;
+    width:100% ; 
+    background-size: cover
+}
+
+.imgTwo{
+    height:83vh;
+    width:100%;
+    background-size: cover
+}
+.imgThree{
+    height:83vh;
+    width:100%;
+    background-size: cover
+}
+.cuerpo{
+
+margin:auto;
+height: 100vh;
+margin-bottom: 100px;
+}
+.centrarbotones{
+
+  color:green;
+}
+.bajar{ margin-top:10px;
+
+}
+.tituloSeis{
+text-decoration: none;
+color: white;
+
+}
+h1{
+
+  color :rgb(78, 124, 8);
+  float:center;
+  margin-top:50px;
+  text-align: center;
+  margin-bottom: 50px;;
+}
+
+
+.colorGreen{
+
+  color:white;
+  
+}
+
+
+
+@media (orientation:landscape){
+    .imgOne{
+
+background-image:url(../img/pantanoRedondo.jpg);
+  /* background-size: contain;*/
+    background-repeat: no-repeat;   
+    width:100%;
+  } 
+}
+@media (orientation:portrait){
+  .imgOne{
+
+background-image:url(../img/porTdos.jpg);
+   /*background-size: cover;*/
+     background-repeat: no-repeat;   
+
+  } 
+}
+
+
+@media (orientation:landscape){
+    .imgTwo{
+
+background-image:url(../img/aG.jpg);
+
+    background-repeat: no-repeat;   
+
+  } 
+}
+@media (orientation:portrait){
+  .imgTwo{
+
+background-image:url(../img/porTtres.jpg);
+   
+     background-repeat: no-repeat;   
+
+  } 
+}
+
+
+@media (orientation:landscape){
+    .imgThree{
+
+background-image:url(../img/musAtres.jpg);
+   
+    background-repeat: no-repeat;   
+
+  } 
+}
+@media (orientation:portrait){
+  .imgThree{
+
+background-image:url(../img/porT.jpg);
+   
+     background-repeat: no-repeat;   
+
+  } 
+}
+
+@media (orientation:landscape){
+  footer {
+    background-color:rgb(78, 124, 8);
+    position: fixed;
+    bottom: 0;
+    width: 0%;
+    height: 0px;
+    margin-top: 10px;
+    color :rgb(78, 124, 8);
+    text-align: center;
+    opacity: 0%;
+  }
+}
+@media (orientation:portrait){
+
+  footer {
+    background-color:green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+     opacity: 100%;
+  }
+}
+
+
+
+
+@media (orientation:landscape){
+ 
+  .opacidadHover{
+
+    /*text-align: center;
+    text-decoration: none;
+    color:green;*/
+    filter: gray; /* IE5+ */
+        -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+     transition: all .8s ease-in-out;
+    
+    }
+  .opacidadHover:hover{
+  
+  /*opacity: 50%;*/
+  /*filter: invert(0.1) sepia(0) hue-rotate(10deg);*/
+  filter: none;
+        -webkit-filter: grayscale(0);
+        transform: scale(1.08);
+  
+  }
+} 
+
+@media (orientation:portrait){
+  .opacidadHover{
+
+    text-align: center;
+    text-decoration: none;
+    color:green;
+    
+    
+    }
+    
+  
+}
